@@ -15,12 +15,12 @@
         android:theme="@style/Theme.TodoList"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity2"
-            android:exported="false"
+            android:name=".application.MainActivity2"
+            android:exported="true"
             android:label="@string/title_activity_main2"
             android:theme="@style/Theme.TodoList" />
         <activity
-            android:name=".MainActivity"
+            android:name=".application.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
