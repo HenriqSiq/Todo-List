@@ -21,10 +21,10 @@ fun ListScreen(
         topBar = {
             ListAppBar()
         },
-        content = {},
         floatingActionButton = {
             listFab(onFabClick = navigateToTaskScreen)
-        }
+        },
+        content = {},
     )
 }
 
